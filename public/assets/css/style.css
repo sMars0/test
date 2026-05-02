@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #f7f7f7;
+    color: #222;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+a {
+    color: #1f5f9f;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.site-header {
+    background: #222;
+    padding: 16px 24px;
+}
+
+.logo {
+    color: #fff;
+    font-weight: 700;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+.lead {
+    color: #555;
+    font-size: 18px;
+}
+
+.category-section {
+    margin-bottom: 40px;
+}
+
+.section-header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.article-grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.article-list {
+    display: grid;
+    gap: 20px;
+}
+
+.article-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.article-card img,
+.article-image {
+    background: #ddd;
+    display: block;
+    height: 180px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.article-card-body {
+    padding: 16px;
+}
+
+.article-card h3 {
+    margin: 0 0 8px;
+}
+
+.meta {
+    color: #666;
+    font-size: 14px;
+    margin: 12px 0;
+}
+
+.sort-links {
+    margin: 24px 0;
+}
+
+.sort-links a,
+.pagination a,
+.pagination span,
+.categories a {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 0 6px 8px 0;
+    padding: 6px 10px;
+}
+
+.sort-links .active,
+.pagination span {
+    background: #222;
+    color: #fff;
+}
+
+.article {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 24px;
+}
+
+.content {
+    margin-top: 24px;
+}
+
+.related {
+    margin-top: 40px;
+}
